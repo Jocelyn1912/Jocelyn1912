@@ -1,0 +1,36 @@
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size: 4vh;
+  color: #331832;
+}
+
+/* Efecto foto principal*/
+.jocyImg:hover {
+  filter: grayscale(80%);
+}
+
+.jocyImg {
+  border-radius: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+a {
+  background-color: #331832;
+  color: #d81e5b;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #d81e5b;
+  color:  #331832;
+}
+
+a, .skillTitle {
+  padding: 0 1%;
+}
+
+.skillTitle {
+  background-color: #f0544f;
+  color: #fdf0d5;
+}
