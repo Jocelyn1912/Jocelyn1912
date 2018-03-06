@@ -34,3 +34,7 @@ a, .skillTitle {
   background-color: #f0544f;
   color: #fdf0d5;
 }
+
+#skill i {
+  font-size: 13vh;
+}
