@@ -6,7 +6,7 @@ body{
 
 /* Efecto foto principal*/
 .jocyImg:hover {
-  filter: grayscale(80%);
+  filter:opacity(.5);
 }
 
 .jocyImg {
