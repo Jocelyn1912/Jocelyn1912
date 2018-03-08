@@ -16,7 +16,7 @@ $(document).ready(function() {
         //se agrega el figcaption junto con el atributo alt, después de la umagen
         $(this).after('<figcaption>' + caption + '</figcaption>');
         //se agrega estilo al figcaption
-        $('figcaption').css({"width": "100%", "color": "white", "font-size": "130%", "font-weight": "bold", "text-align": "center" ,"position": "absolute", "margin-top": "-50%", "display": "inline-block", "cursor": "pointer",});
+        $('figcaption').css({"width": "100%", "color": "white", "font-size": "130%", "font-weight": "bold", "text-align": "center" ,"position": "absolute", "margin-top": "-20%", "display": "inline-block", "cursor": "pointer",});
         // se envuelve la imagen y el figcaption en la etiqueta figure
         $(this).wrap('<figure></figure>');
         //se agrega estilo al figure, degradado
