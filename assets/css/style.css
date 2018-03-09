@@ -9,10 +9,13 @@ body{
   filter:opacity(.5);
 }
 
+#me {
+  display: block;
+  margin: 3% auto;
+}
+
 .jocyImg {
   border-radius: 10%;
-  margin-top: 10%;
-  margin-bottom: 5%;
 }
 
 #me a {
@@ -41,7 +44,6 @@ a, .skillTitle {
 
 .contenedorImg {
   background-color: #fdf0d5;
-  padding: 1%;
   margin: 1%;
   -webkit-box-shadow: 5px 5px 26px -3px rgba(158, 158, 158, 0.91);
   -moz-box-shadow: 5px 5px 26px -3px rgba(158, 158, 158, 0.91);
