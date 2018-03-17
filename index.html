@@ -3,44 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Portafolio</title>
-  <!-- Latest compiled and minified CSS -->
+  <title>Portafolio Jocelyn Parada</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-</head>
+  <script defer src="/static/fontawesome/fontawesome-all.js"></script>
 
+</head>
 <body>
-  <div class="container">
-    <section id="me">
+  <header></header>
+
+  <!-- sección home -->
+  <section id="home">
+    <div class="container text-center">
+      <div class="row text size">
+        <div class="col-xs-11 col-sm-11 col-md-push-4 col-md-6 col-md-push-5 col-lg-6">
+          <p id="textWrite"><strong>Hola! Soy Jocelyn...</strong></p>
+        </div>
+      </div>
+      <div class="row size">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p><strong>Alumna de Laboratoria en la especialidad de Front End Developer.</strong></p>
+        </div>
+      </div>
+      <div class="row" id="aContact">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a href="#contactMe" id="contact">Contacto</a>
+        </div>
+      </div>
+      <div class="row" id="myAbilities">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a href="#aboutMe" id="abilities">Más sobre mí...</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aboutMe">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-4 jocelynImg">
           <img class="img-responsive jocyImg" src="assets/img/jocelynParada.jpg" alt="Jocelyn Parada">
         </div>
         <div class="col-xs-12 col-sm-push-1 col-sm-7 col-md-push-1 col-md-7 ">
           <p>
-            <strong>Hola! Mi nombre es Jocelyn Parada...</strong>
+            <strong>Sobre mí</strong>
             <br>
             <br>
             Alumna de Laboratoria en la especialidad de Front End Developer. Tengo 30 años, me gusta disfrutar del tiempo libre con la familia y amigos, amante de las caminatas al aire libre o sobre mis rollers. Maravillada y encantada con el mundo de la tecnología y el código, me gusta crear soluciones a diferentes problemáticas trabajando con la metodología Ágil, en conjunto con mis compañeras.
           </p>
-          <br>
-          <a class="social" href="https://github.com/Jocelyn1912/" target="_blank">GitHub</a> |
-          <a class="social" href="https://www.linkedin.com/in/jocelyn-mar%C3%ADa-parada-romero-725532138/" target="_blank">LinkedIn</a> |
-          <a class="social" href="https://www.dropbox.com/s/3opkda7m9eaqe3c/CV_Jocelyn%20Parada_FrontEnd.pdf?dl=0" target="_blank">Curriculum</a> |
         </div>
       </div>
-      <br>
-    </section>
+    </div>
+  </section>
 
-    <section id="skill">
+  <!-- sección de conocimientos -->
+  <section id="skills">
+    <div class="container text-center">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <p class="skillTitle"><strong>Conocimientos en...</strong></p>
+          <p class="skillTitle"><strong>Conocimientos</strong></p>
           <br>
           <i class="devicon-html5-plain-wordmark"></i>
           <i class="devicon-javascript-plain"></i>
@@ -53,66 +80,99 @@
           <i class="devicon-babel-plain"></i>
           <i class="devicon-github-plain-wordmark"></i>
           <i class="devicon-bootstrap-plain-wordmark"></i>
+          <i class="devicon-trello-plain-wordmark"></i>
+          <i class="devicon-git-plain"></i>
         </div>
       </div>
-      <br>
-    </section>
+    </div>
+  </section>
 
-    <section id="proyects">
+  <section id="proyects">
+    <div class="container text-center">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <p class="skillTitle"><strong>Proyectos desarrollados...</strong></p>
+          <p class="skillTitle"><strong>Proyectos</strong></p>
           <br>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="assets/img/twitter.png" alt="Twitter">
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="Twitter">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-5 col-lg-push-1 col-lg-5">
           <h3>Twitter</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
           <a href="https://github.com/Jocelyn1912/Twitter" target="_blank">Repositorio</a>
           <a href="https://jocelyn1912.github.io/Twitter/" target="_blank">Demo</a>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="assets/img/miPaginaGrinch.png" alt="Grinch">
+      </div>
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
           <h3>Grinch</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
           <a href="https://github.com/Jocelyn1912/reto-mi-p-gina" target="_blank">Repositorio</a>
           <a href="https://jocelyn1912.github.io/reto-mi-p-gina/" target="_blank">Demo</a>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="assets/img/YouEat.png" alt="YouEat">
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-6 col-lg-push-1 col-md-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="Grinch">
+        </div>
+      </div>
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="YouEat">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-5 col-lg-push-1 col-lg-5">
           <h3>YouEat</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
           <a href="https://github.com/mthompsonc/youeat" target="_blank">Repositorio</a>
           <a href="https://mthompsonc.github.io/youeat/" target="_blank">Demo</a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="" alt="">
-          <h3>Algo</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <h3>algo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
           <a href="" target="_blank">Repositorio</a>
           <a href="" target="_blank">Demo</a>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="" alt="">
-          <h3>Algo</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
-          <a href="" target="_blank">Repositorio</a>
-          <a href="" target="_blank">Demo</a>
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-6 col-lg-push-1 col-md-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="">
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 contenedorImg">
-          <img class="img-responsive" src="" alt="">
-          <h3>Algo</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-5 col-lg-push-1 col-lg-5">
+          <h3>algo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
           <a href="" target="_blank">Repositorio</a>
           <a href="" target="_blank">Demo</a>
         </div>
       </div>
-    </section>
-  </div>
+      <div class="row line">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+          <h3>algo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi minus doloremque impedit facilis voluptatibus cumque excepturi veniam at repellat itaque. Eaque in dolorum quis, et, modi aperiam magni culpa sapiente.20.</p>
+          <a href="" target="_blank">Repositorio</a>
+          <a href="" target="_blank">Demo</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-push-1 col-md-6 col-lg-push-1 col-md-6 contenedorImg">
+          <img class="img-responsive" src="assets/img/laptop.png" alt="algo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contactMe">
+    <div class="container text-center">
+      <a class="social" href="https://github.com/Jocelyn1912/" target="_blank">GitHub</a>
+      <a class="social" href="https://www.linkedin.com/in/jocelyn-mar%C3%ADa-parada-romero-725532138/" target="_blank">LinkedIn</a>
+      <a class="social" href="https://www.dropbox.com/s/3opkda7m9eaqe3c/CV_Jocelyn%20Parada_FrontEnd.pdf?dl=0" target="_blank">Curriculum</a>
+      <p>© Jocelyn Parada 2018 </p>
+    </div>
+  </footer>
+
 
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -120,8 +180,8 @@
   crossorigin="anonymous"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <script src="assets/js/app.js"></script>
-
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+  <script src="assets/js/index.js"></script>
 </body>
 </html>

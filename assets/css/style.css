@@ -1,62 +1,124 @@
-body{
-  font-family: 'Indie Flower', cursive;
-  font-size: 4vh;
-  color: #331832;
+* {
+  font-family: 'IBM Plex Serif', serif;
 }
 
-/* Efecto foto principal*/
-.jocyImg:hover {
-  filter:opacity(.5);
+#home {
+  background-image: url(../img/img.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
+  color: #ffff;
 }
 
-#me {
-  display: block;
-  margin: 3% auto;
+.size {
+  font-size: 7vh;
+}
+/* Efecto escritura*/
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+#textWrite {
+  padding: 1%;
+  text-align: center;
+  border-right: .2em solid #FF0044;
+  width: 16ch;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 1s steps(15, end),
+  blink-caret .5s step-end infinite alternate;
 }
 
-.jocyImg {
-  border-radius: 10%;
+.text {
+  margin-top: 10%;
 }
 
-#me a {
-  background-color: #331832;
-  color: #d81e5b;
-}
-
-#me a:hover {
-  text-decoration: none;
-  background-color: #d81e5b;
-  color: #331832;
-}
-
-a, .skillTitle {
+#contact {
+  background-color: #FF0044;
+  border: none;
+  color: #fff;
   padding: 0 1%;
+  font-size: 4vh;
+}
+
+#contact:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #FF0044;
+  border: #FF0044;
+  background-color: #fff;
+}
+
+#aContact {
+  margin-top: 8%;
+}
+
+#abilities {
+  color: #fff;
+  font-size: 3vh;
+  border: 2px solid #FF0044;
+  padding: 1%;
+}
+
+#abilities:hover {
+  text-decoration: none;
+}
+
+#myAbilities {
+  margin-top: 6%;
 }
 
 .skillTitle {
-  background-color: #f0544f;
-  color: #fdf0d5;
+  font-size: 5vh;
+  padding-top: 7%;
 }
 
-#skill i {
+#skills i {
   font-size: 13vh;
+  color: #FF0044;
 }
 
-.contenedorImg {
-  background-color: #fdf0d5;
-  margin: 1%;
-  -webkit-box-shadow: 5px 5px 26px -3px rgba(158, 158, 158, 0.91);
-  -moz-box-shadow: 5px 5px 26px -3px rgba(158, 158, 158, 0.91);
-  box-shadow: 5px 5px 26px -3px rgba(158, 158, 158, 0.91);
+#proyects {
+  background-color: #EEEEEE;
 }
 
 #proyects a {
   font-size: 3vh;
-  background-color: #f0544f;
-  color: #fdf0d5;
+  background-color: #FF0044;
+  color: #fff;
 }
 
 #proyects a:hover {
   text-decoration: none;
   color: #331832;
+}
+
+.line {
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0px 15px 10px -15px #111;
+  padding: 5% 0;
+}
+
+footer {
+  background-color: #331832;
+  font-size: 2vh;
+}
+
+footer a {
+  font-size: 5vh;
+}
+
+#contactMe {
+  padding: 1%;
+}
+
+#contactMe a {
+  background-color: #331832;
+  color: #d81e5b;
+  border-right: 2px solid #d81e5b;
+  padding: 0 1%;
+}
+
+#contactMe {
+  color: #fff;
 }
