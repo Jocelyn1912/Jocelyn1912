@@ -14,6 +14,7 @@
 .size {
   font-size: 3em;
 }
+
 /* Efecto escritura*/
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
@@ -53,19 +54,50 @@
   margin-top: 8%;
 }
 
-#abilities {
+.jocyImg {
+  border-radius: 50%;
+}
+
+#aboutMe {
+  padding: 5%;
+  height: 100vh;
+}
+
+.textMe {
+  font-size: 3.5vh;
+}
+
+.btnGoSkills {
+  padding-top: 9%;
+}
+
+#goMySkills .abilities {
+  color: #331832;
+}
+
+#goMySkills .abilities:hover {
+  color: #FFF;
+}
+
+.abilities {
   color: #fff;
   font-size: 1.5em;
   border: 2px solid #FF0044;
   padding: 1%;
 }
 
-#abilities:hover {
+.abilities:hover {
   text-decoration: none;
+  color: #FFF;
+  background-color: #FF0044;
 }
 
 #myAbilities {
   margin-top: 6%;
+}
+
+#skills {
+  height: 100vh;
 }
 
 .skillTitle {
@@ -78,7 +110,7 @@
   color: #FF0044;
 }
 
-#proyects {
+#proyects, #aboutMe {
   background-color: #EEEEEE;
 }
 
@@ -110,6 +142,7 @@ footer a {
 
 #contactMe {
   padding: 1%;
+  color: #fff;
 }
 
 #contactMe a {
@@ -119,6 +152,21 @@ footer a {
   padding: 0 1%;
 }
 
-#contactMe {
-  color: #fff;
+
+@media only screen and (max-width: 700px) {
+  .size {
+    font-size: 2.5em;
+    padding-top: 5%;
+  }
+  .text-center {
+    padding-top: 10%;
+  }
+  #aContact{
+    padding-top: 20%;
+  }
+  .textMe {
+    text-align: center;
+    font-size: 1.2em;
+
+  }
 }
