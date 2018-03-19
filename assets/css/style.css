@@ -2,9 +2,12 @@
   font-family: 'IBM Plex Serif', serif;
 }
 
+#home, #aboutMe, #skills {
+  height: 100vh;
+}
+
 #home {
   background-image: url(../img/img.jpg);
-  height: 100vh;
   background-size: cover;
   background-position: center;
   opacity: .8;
@@ -12,7 +15,7 @@
 }
 
 .size {
-  font-size: 3em;
+  font-size: 7vh;
 }
 
 /* Efecto escritura*/
@@ -50,21 +53,27 @@
   background-color: #fff;
 }
 
-#aContact {
-  margin-top: 8%;
+#aContact, #myAbilities {
+  margin-top: 6%;
 }
 
 .jocyImg {
   border-radius: 50%;
+  width: 45vh;
+  height: 45vh;
 }
 
 #aboutMe {
   padding: 5%;
-  height: 100vh;
+}
+
+.aboutMeTitle {
+  font-size: 5vh;
 }
 
 .textMe {
   font-size: 3.5vh;
+  padding-top: 2%;
 }
 
 .btnGoSkills {
@@ -92,16 +101,8 @@
   background-color: #FF0044;
 }
 
-#myAbilities {
-  margin-top: 6%;
-}
-
-#skills {
-  height: 100vh;
-}
-
 .skillTitle {
-  font-size: 2.5em;
+  font-size: 7vh;
   padding-top: 7%;
 }
 
@@ -115,9 +116,11 @@
 }
 
 #proyects a {
-  font-size: 1.2em;
+  font-size: 3vh;
   background-color: #FF0044;
   color: #fff;
+  padding: .5%;
+  margin: 1%;
 }
 
 #proyects a:hover {
@@ -129,44 +132,40 @@
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0px 15px 10px -15px #111;
   padding: 5% 0;
+  font-size: 3vh;
+}
+
+.line p {
+  padding: 3% 0;
 }
 
 footer {
   background-color: #331832;
   font-size: 1em;
+  height: 25vh;
 }
 
 footer a {
-  font-size: 3vh;
+  font-size: 10vh;
+  padding: 0 2%;
+  color: #C6D8D3;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 
 #contactMe {
-  padding: 1%;
   color: #fff;
-}
-
-#contactMe a {
-  background-color: #331832;
-  color: #d81e5b;
-  border-right: 2px solid #d81e5b;
-  padding: 0 1%;
 }
 
 
 @media only screen and (max-width: 700px) {
   .size {
-    font-size: 2.5em;
-    padding-top: 5%;
+    font-size: 4.5vh;
+    padding-top: 6%;
   }
   .text-center {
-    padding-top: 10%;
-  }
-  #aContact{
-    padding-top: 20%;
-  }
-  .textMe {
-    text-align: center;
-    font-size: 1.2em;
-
+    padding-top: 8%;
   }
 }
