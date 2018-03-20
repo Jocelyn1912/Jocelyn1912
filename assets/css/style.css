@@ -64,7 +64,7 @@
 }
 
 #aboutMe {
-  padding: 5%;
+  padding-top: 15%;
 }
 
 .aboutMeTitle {
@@ -72,12 +72,8 @@
 }
 
 .textMe {
-  font-size: 3.5vh;
+  font-size: 22px;
   padding-top: 2%;
-}
-
-.btnGoSkills {
-  padding-top: 9%;
 }
 
 #goMySkills .abilities {
@@ -107,8 +103,9 @@
 }
 
 #skills i {
-  font-size: 13vh;
+  font-size: 20vh;
   color: #FF0044;
+  padding: 1%;
 }
 
 #proyects, #aboutMe {
@@ -116,7 +113,7 @@
 }
 
 #proyects a {
-  font-size: 3vh;
+  font-size: 20px;
   background-color: #FF0044;
   color: #fff;
   padding: .5%;
@@ -132,11 +129,12 @@
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0px 15px 10px -15px #111;
   padding: 5% 0;
-  font-size: 3vh;
+  
 }
 
 .line p {
   padding: 3% 0;
+  font-size: 22px;
 }
 
 footer {
@@ -168,4 +166,11 @@ footer a:hover {
   .text-center {
     padding-top: 8%;
   }
+  #skills i {
+    font-size: 14vh;
+  }
+  .skillTitle {
+    font-size: 45px;
+  }
+
 }
