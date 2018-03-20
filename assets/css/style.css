@@ -172,5 +172,15 @@ footer a:hover {
   .skillTitle {
     font-size: 45px;
   }
+  .textMe {
+    font-size: 17px;
+  }
+  #aboutMe {
+    text-align: center;
+    padding-top: 2%
+  }
+  .aboutMeTitle {
+    font-size: 22px;
+  }
 
 }
