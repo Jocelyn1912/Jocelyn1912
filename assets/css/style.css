@@ -132,7 +132,6 @@
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0px 15px 10px -15px #111;
   padding: 5% 0;
-  
 }
 
 .line p {
@@ -176,15 +175,12 @@ footer a:hover {
   #aboutMe {
     padding-top: 2%
   }
-  #aboutMe {
-  height: 130vh;
-  }
   .titleTextMe, .skillTitle {
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
   }
   .textMe, #proyects p {
-    font-size: 15px;
+    font-size: 19px;
   }
   #proyects a {
     font-size: 16px;
