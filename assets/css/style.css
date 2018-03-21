@@ -15,7 +15,8 @@
 }
 
 .size {
-  font-size: 7vh;
+  margin-top: 15%;
+  font-size: 50px;
 }
 
 /* Efecto escritura*/
@@ -24,17 +25,12 @@
 
 #textWrite {
   padding: 1%;
-  text-align: center;
   border-right: .2em solid #FF0044;
-  width: 16ch;
+  width: 16.2ch;
   white-space: nowrap;
   overflow: hidden;
   -webkit-animation: typing 1s steps(15, end),
   blink-caret .5s step-end infinite alternate;
-}
-
-.text {
-  margin-top: 10%;
 }
 
 #contact {
@@ -64,7 +60,7 @@
 }
 
 #aboutMe {
-  padding-top: 15%;
+  padding-top: 12%;
 }
 
 .aboutMeTitle {
@@ -78,10 +74,6 @@
 
 #goMySkills .abilities {
   color: #331832;
-}
-
-#goMySkills .abilities:hover {
-  color: #FFF;
 }
 
 .abilities {
@@ -98,18 +90,29 @@
 }
 
 .skillTitle {
-  font-size: 7vh;
-  padding-top: 7%;
+  font-size: 45px;
+  padding-top: 4%;
+}
+
+#skills .skillTitle {
+  padding-bottom: 3%;
 }
 
 #skills i {
-  font-size: 20vh;
+  font-size: 15vh;
   color: #FF0044;
-  padding: 1%;
+}
+
+.col-xs-4, .col-sm-4, .col-md-3, .col-lg-3 {
+  padding-bottom: 1%;
 }
 
 #proyects, #aboutMe {
   background-color: #EEEEEE;
+}
+
+.titleTextMe {
+  font-size: 40px
 }
 
 #proyects a {
@@ -160,27 +163,36 @@ footer a:hover {
 
 @media only screen and (max-width: 700px) {
   .size {
-    font-size: 4.5vh;
-    padding-top: 6%;
+    margin-top: 45%;
+    font-size: 20px;
+  }
+  .jocyImg {
+    width: 150px;
+    height: 150px;
   }
   .text-center {
     padding-top: 8%;
   }
-  #skills i {
-    font-size: 14vh;
-  }
-  .skillTitle {
-    font-size: 45px;
-  }
-  .textMe {
-    font-size: 17px;
-  }
   #aboutMe {
-    text-align: center;
     padding-top: 2%
   }
-  .aboutMeTitle {
-    font-size: 22px;
+  #aboutMe {
+  height: 130vh;
   }
-
+  .titleTextMe, .skillTitle {
+    font-size: 24px;
+    text-align: center;
+  }
+  .textMe, #proyects p {
+    font-size: 15px;
+  }
+  #proyects a {
+    font-size: 16px;
+  }
+  #skills i {
+    font-size: 12vh;
+  }
+  footer {
+  height: 32vh;
+}
 }

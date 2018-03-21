@@ -73,7 +73,7 @@ body {
   background: none;
   color:#fff;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 30px;
   padding-bottom: 1em;
   height: 3.5em;
   width: 3.5em;
@@ -85,6 +85,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   z-index: 11;
+  outline: none;
 }
 
 .cn-button:hover,
@@ -286,5 +287,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   .no-csstransforms .cn-wrapper li {
     height: 3em;
     width: 3em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cn-button {
+  font-size: 20px;
   }
 }
